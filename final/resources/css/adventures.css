@@ -1,0 +1,58 @@
+.adventures-main-body h3 {
+    text-align: center;
+}
+
+.adventures-main-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+/* Adventures flexbox gallery */
+
+.adventures-main-body {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adventures1 {
+    flex:1 50%;
+    padding: 5px 5px 5px 5px;
+}
+
+.adventures2 {
+    flex:1 50%;
+    padding: 5px 5px 5px 5px;
+}
+
+.adventures3 {
+    flex:1 50%;
+    padding: 5px 5px 5px 5px;
+}
+
+.adventures4 {
+    flex:1 50%;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Responsive Gallery */
+
+@media all and (max-width: 766px) {
+
+.adventures-main-body {
+    flex-direction: column;
+}
+
+.adventures1, .adventures2, .adventures3 .adventures4 {
+        
+/* Return them to document order */
+    order: 0;
+}
+ 
+}

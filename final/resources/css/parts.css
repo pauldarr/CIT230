@@ -1,0 +1,52 @@
+h2 {
+    text-align: center;
+}
+
+.parts-main-body h3, p {
+    text-align: center;
+}
+
+.parts-main-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Bikes flexbox gallery */
+
+.parts-wheels {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parts1 {
+    flex:1 33%;
+    padding: 5px 5px 5px 5px;
+}
+
+.parts2 {
+    flex:1 33%;
+    padding: 5px 5px 5px 5px;
+}
+
+.parts3 {
+    flex:1 33%;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Responsive Gallery */
+
+@media all and (max-width: 766px) {
+
+.parts-wheels {
+    flex-direction: column;
+}
+
+.parts1, .parts2, .parts3 {
+        
+/* Return them to document order */
+    order: 0;
+}
+  
+}

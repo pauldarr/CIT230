@@ -1,0 +1,55 @@
+.bikes-main-body h3 {
+    text-align: center;
+}
+
+.bikes-main-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Bikes flexbox gallery */
+
+.bikes-main-body {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cross-country {
+    flex:1 33%;
+    padding: 5px 5px 5px 5px;
+}
+
+.trail {
+    flex:1 33%;
+    padding: 5px 5px 5px 5px;
+}
+
+.kids-mountain {
+    flex:1 33%;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Responsive Gallery */
+
+@media all and (max-width: 766px) {
+
+.bikes-main-body {
+    flex-direction: column;
+}
+
+.cross-country, .trail, .kids-mountain {
+        
+/* Return them to document order */
+    order: 0;
+}
+
+/* .cross-country, .trail, .kids-mountain {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center; */
+  
+}
