@@ -1,0 +1,144 @@
+/* Body & Headings */
+
+body{
+    max-height: 100%;
+    min-height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+	font-family:'Ubuntu', Verdana, sans-serif;
+	color: #929292;
+	font-size: 12px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:'Ubuntu', Verdana, sans-serif;
+	color: #555555;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	margin: 25px;
+}
+
+h2{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.17em;
+	text-align: center;
+  font-weight: bold;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+
+.page-container {
+	width: 800px;
+	margin: 0px auto;
+  position:relative;
+}
+
+main{
+	padding-bottom: 52px;
+	overflow: auto;
+	width: 100%;
+}
+
+/* Main Navigation Style */
+
+nav{
+	background-color: #3b5998;
+	padding: 15px 0px;
+	margin: 0px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li{
+	display: inline;
+	padding: 15px 15px;
+	margin: 0px;
+}
+
+nav li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu-right{
+	float: right;
+	margin-top: -15px;
+}
+
+nav li:hover{
+	background-color: #8b9dc3;
+}
+
+/* Columns */
+.column1{
+	width: 25%;
+	float: left;
+	margin: 5px 12px;
+	padding: 10px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+.column2{
+	width: 40%;
+	float: left;
+	margin: 5px 12px;
+	padding: 10px;
+}
+
+.column3{
+	width: 25%;
+	float: left;
+	margin: 5px 12px;
+	background: radial-gradient(200px, #e6e9f2, #fdfdfe);
+  border: 1px solid #edeff5;
+}
+
+.myCode{
+	background-color: #ffffff;
+	margin: 5px;
+	padding: 5px;
+	font-size: .65em;
+}
+
+/* Footer */
+
+footer{
+	background-color: #3b5998;
+	color: #ffffff;
+	text-align: center;
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+}
+
+footer p{
+	padding: 0px;
+	margin: 20px;
+}

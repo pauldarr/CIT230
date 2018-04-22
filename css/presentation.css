@@ -1,0 +1,69 @@
+/* Main body */
+
+html {
+    height:100%
+}
+
+body {
+    font-family: 'Futura', sans-serif;
+    text-align: center;
+    background:#ffffff;
+    height:100%;
+    color:#737373;
+}
+
+header {
+    background:#ffffff;
+    position:fixed;
+    width:100%;
+    z-index: 1;
+}
+
+h1{
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+h2{
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+video {
+    width:100%;
+    height:100%;
+    max-width: 720px;
+    display:block;
+    margin:auto;
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+/* Make things a little responsive */
+
+@media only screen and (min-width:600px)
+{
+h1{
+	font-size: 2em;
+	line-height: 1.25em;
+}
+
+h2{
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+}
+
+@media only screen and (min-width:768px)
+{
+h1{
+	font-size: 2em;
+	line-height: 1.25em;
+}
+
+h2{
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+}

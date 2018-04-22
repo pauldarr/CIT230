@@ -1,0 +1,334 @@
+/* This is the setup to make things responsive */
+
+/* For tablets, phones*/
+
+@media only screen and (min-width: 600px){
+	.span-t-1 {width: 8.33%;}
+	.span-t-2 {width: 16.66%;}
+	.span-t-3 {width: 25%;}
+	.span-t-4 {width: 33.33%;}
+	.span-t-5 {width: 41.66%;}
+	.span-t-6 {width: 50%;}
+	.span-t-7 {width: 58.33%;}
+	.span-t-8 {width: 66.66%;}
+	.span-t-9 {width: 75%;}
+	.span-t-10 {width: 83.33%;}
+	.span-t-11 {width: 91.66%;}
+	.span-t-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+/* For Desktops */
+
+@media only screen and (min-width: 768px){
+	.span-1 {width: 8.33%;}
+	.span-2 {width: 16.66%;}
+	.span-3 {width: 25%;}
+	.span-4 {width: 33.33%;}
+	.span-5 {width: 41.66%;}
+	.span-6 {width: 50%;}
+	.span-7 {width: 58.33%;}
+	.span-8 {width: 66.66%;}
+	.span-9 {width: 75%;}
+	.span-10 {width: 83.33%;}
+	.span-11 {width: 91.66%;}
+	.span-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* These are the font families of all the headings and body */
+
+body{
+	font-family:'Futura', sans-serif;
+	color: #737373;
+	font-size: 14px;
+	line-height: 1.25em;
+}
+
+@media only screen and (min-width: 768px){
+	body{
+		font-size: 16px;
+		line-height: 1.375em;
+		letter-spacing: .05em; 
+	}
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:'Futura', sans-serif;
+	color: #737373;
+	letter-spacing: .05em;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	font-size: 2em;
+	line-height: 1.25em;
+}
+
+h2{
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+h3{
+  font-size: 1.3em;
+  line-height: 1.15em;
+}
+
+h4{
+  font-size: 1em;
+  line-height: 1.10em;
+}
+
+h5{
+  font-size: 0.8em;
+  line-height: 1.05em;
+}
+
+h6{
+  font-size: 0.7em;
+  line-height: 1em;
+}
+
+@media only screen and (min-width: 768px){
+	h1{
+	font-size: 2em;
+	line-height: 1.25em;
+	}
+
+	h2{
+	  font-size: 1.5em;
+	  line-height: 1.2em;
+	}
+
+	h3{
+	  font-size: 1.3em;
+	  line-height: 1.15em;
+	}
+
+	h4{
+	  font-size: 1em;
+	  line-height: 1.10em;
+	}
+
+	h5{
+	  font-size: 0.8em;
+	  line-height: 1.05em;
+	}
+
+	h6{
+	  font-size: 0.7em;
+	  line-height: 1em;
+	}
+
+	figcaption{
+	  font-size: 1.25em;
+	  line-height: 1.22em;
+	}
+}
+
+/* Figure and Figcaption Styles */
+
+figure{
+  text-align: left;
+}
+
+figcaption{
+  font-size: 1em;
+  line-height: 1em;
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 768px){
+	figcaption{
+	  font-size: 1.25em;
+	  line-height: 1.22em;
+	}
+}
+
+/* Styling for all HTML Elements */
+
+body{
+    background-color: #ffffff;
+	margin: 0px auto;
+	padding: 10px;
+	height: 100%;
+}
+
+/* General styling for headings */
+
+h1, h2, h3 ,h4, h5, h6{
+	padding: 0;
+	margin: 0;
+}
+
+.ex{
+	margin: 10px 0px;
+}
+
+/* Style for individual headings */
+
+h1{
+  text-align: center;
+}
+
+h2{
+  font-size: 2em;
+  color: #ffffff;
+  border-radius: 2px;
+  text-align: center;
+  background-color: #737373;
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+}
+
+h3{
+  font-size: 1.3em;
+  color: #737373;
+  margin: 5px 0px 5px 0px;
+}
+
+h4{
+  font-size: 1em;
+  color: #737373;
+  margin: 5px 0px 5px 0px;
+}
+
+/* List Styles */
+
+li{
+  color: #000000;
+} 
+
+ol{
+  color: #000000;
+} 
+
+/* Top Navigation Style */
+
+ul.topnav {
+    list-style-type: none;
+    border-radius: 2px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #737373;
+}
+
+/* Float the list items side by side */
+
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+
+ul.topnav li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.22em;
+}
+
+/* Change background color of links on hover */
+
+ul.topnav li a:hover {background-color: #000000;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+ul.topnav li.icon {display: none;}
+
+/* Paragraph Styles */
+
+p{
+	color:#1a2025;
+	text-align: left;
+	margin-top: 2px;
+}
+
+/* Figure and Figcaption Styles */
+
+figure{
+	text-align: left;
+	width: 200px;
+}
+
+figcaption{
+	color: #1a2025;
+	padding: 10px;
+}
+
+/*Images*/
+
+#page-header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page-main img {
+	display: block;
+	padding: 10px 25px;
+}
+
+/*Responsive Images*/
+
+img { 
+    max-width: 100%;
+    height: auto;
+}
+
+/* The styling of the Style Guide*/
+
+.colorsamples{
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+/* Color Scheme Section*/
+
+#colorsample1{
+	background-color: #ffffff
+}
+
+#colorsample2{
+	background-color: #000000;
+}
+
+#colorsample3{
+	background-color: #747474;
+}

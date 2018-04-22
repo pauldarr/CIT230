@@ -1,0 +1,52 @@
+/* Main body */
+
+body { 
+    margin-top: 1em;
+    font-family: "Futura", sans-serif;
+    color:black;
+    text-align: center;
+}
+
+/* Make date red */
+
+.date {
+    color:red;
+}
+
+/* Table formatting */
+
+th {
+    font-weight:bold;
+    color:white;
+    background:black;
+}
+
+th:first-child {
+    border-left:none;
+}
+
+table {
+    border-collapse: collapse;  
+}
+
+td, th {
+    border:1px solid black;
+    padding:.2em;
+}
+
+tr:nth-child(odd) {
+    background:lightgray;
+}
+
+table {
+    display:inline-block;
+    margin:auto;
+}
+
+/* Footer formatting */
+
+footer {
+    margin:1em;
+    padding:1em;
+    border-top:solid 1px #737373;
+}
